@@ -4,22 +4,17 @@
 
 .btn {
   background: linear-gradient(
-    92.23deg,
-    #ff56f6 21.43%,
-    #b936ee 50.63%,
-    #3bace2 100%,
-    #406aff 117.04%
+    45deg,
+    #0093E9 ,
+    #80D0C7 
   );
-  box-shadow: 0px 4.42184px 107.23px rgba(255, 86, 246, 0.51);
 }
 
 .btn:hover {
   background: linear-gradient(
-    92.23deg,
-    #406aff 21.43%,
-    #3bace2 50.63%,
-    #b936ee 100%,
-    #ff56f6 117.04%
+    45deg,
+    #80D0C7 ,
+    #0093E9
   );
 }
 
@@ -43,17 +38,17 @@
 
 .btn3 {
   background: linear-gradient(
-    92.23deg,
-    #9CECFB ,
-    #406aff 
+    45deg,
+    #0093E9 ,
+    #80D0C7 
   );
 }
 
 .btn3:hover {
   background: linear-gradient(
-    92.23deg,
-    #0052D4 ,
-    #9CECFB
+    45deg,
+    #80D0C7 ,
+    #0093E9
   );
 }
 

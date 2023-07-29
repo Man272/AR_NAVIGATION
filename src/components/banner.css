@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Ysabeau+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+
+.banner-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.word {
+    flex: 1;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.word h1 {
+    font-family: 'Ysabeau SC', sans-serif;
+    font-weight: 600;
+    font-size: 55px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.word p {
+    color: #90e0ef;
+    text-align: center;
+    font-family: 'Play', sans-serif;
+    font-size: 25px;
+}
+
+.image {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    animation: floatingAnimation 4s infinite ease-in-out;
+}
+
+.image img {
+    max-width: 80%; /* Image takes full width of its container */
+}
+
+@keyframes floatingAnimation {
+    0% {
+      transform: translateY(0); /* Start the animation at its original position */
+    }
+    50% {
+      transform: translateY(-15px); /* Move the image 10 pixels up */
+    }
+    100% {
+      transform: translateY(0); /* Bring the image back to its original position */
+    }
+  }
+
+  

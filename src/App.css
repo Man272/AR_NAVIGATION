@@ -1,13 +1,26 @@
 body {
-    margin: 0;
-    padding: 0;
-    background-color: #000000;
-  }
-  
-  .app {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  /* Add any other styles you need for your app here */
-  
+  margin: 0;
+  padding: 0;
+  background-color: #06002E;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap');
+
+/* Your other CSS styles here */
+
+.app {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Roboto', sans-serif;
+}
+
+.page-container {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.banner {
+  background-color: #06002E;
+}
+
+

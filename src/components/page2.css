@@ -1,0 +1,124 @@
+.page2-container {
+    height: 1000px;
+    border-radius: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+    display: flex;
+  }
+  
+  .line4 {
+    width: 60%; /* Adjust the width as needed */
+    display: flex;
+    flex-direction: column;
+    margin: 17px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .line3 {
+    width: 40%; /* Adjust the width as needed */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 17px;
+  }
+  
+  .title3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    color: black;
+    border-radius: 25px;
+    margin-bottom: 10px;
+    width: 624px;
+    height: 970px;
+    align-items: center;
+    margin-left: 35px;
+  }
+  
+  .text-center h1 {
+    font-size: 35px;
+    text-align: center;
+  }
+  
+  .title4 {
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    color: black;
+    border-radius: 25px;
+    padding: 10px;
+    margin-bottom: 20px;
+    height: 330px;
+    width: 760px;
+    text-align: center;
+    align-items: center;
+    margin-left: 22px;
+  }
+  
+  .box1 {
+    border-radius: 15px;
+    background-color: #ffffff;
+    padding: 10px;
+    height: 200px;
+    width: 720px;
+    margin: 10px;
+  }
+
+  .box1 h4{
+    text-align: center;
+    font-size: 15px; 
+  }
+
+  .SU img {
+    height: 120px;
+    width: 120px;
+  }
+  
+  .su-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .SU {
+    text-align: center;
+    flex: 1;
+  }
+
+  .SU h5 {
+    font-size: 15px;
+    color: #000000;
+  }
+  
+  .text-center img{
+    max-height: 840px;
+    max-width: 790px;
+    align-items: center;
+    border-radius: 15px;
+  }
+  
+  .title8 {
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    color: black;
+    border-radius: 25px;
+    padding: 10px;
+    margin-bottom: 10px;
+    height: 570px;
+    width: 760px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 22px;
+  }
+  .img {
+    align-items: center;
+  }
+
+  .img img {
+    height: 600px;
+    align-items: center;
+  }
